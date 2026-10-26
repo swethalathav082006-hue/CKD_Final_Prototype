@@ -1,0 +1,177 @@
+{
+  "title": "PRIVACY-PRESERVING FEDERATED LEARNING FRAMEWORK FOR MULTI-HOSPITAL MEDICAL DATA ANALYSIS",
+  "features": [
+    "age",
+    "bp",
+    "sg",
+    "al",
+    "su",
+    "rbc",
+    "pc",
+    "pcc",
+    "ba",
+    "bgr",
+    "bu",
+    "sc",
+    "sod",
+    "pot",
+    "hemo",
+    "pcv",
+    "wbcc",
+    "rbcc",
+    "appet"
+  ],
+  "numeric": [
+    "age",
+    "bp",
+    "sg",
+    "al",
+    "su",
+    "bgr",
+    "bu",
+    "sc",
+    "sod",
+    "pot",
+    "hemo",
+    "pcv",
+    "wbcc",
+    "rbcc"
+  ],
+  "categorical": [
+    "rbc",
+    "pc",
+    "pcc",
+    "ba",
+    "appet"
+  ],
+  "medians": {
+    "age": 55.0,
+    "bp": 94.0,
+    "sg": 1014.0,
+    "al": 1.0,
+    "su": 1.0,
+    "bgr": 139.0,
+    "bu": 40.0,
+    "sc": 1.4,
+    "sod": 139.0,
+    "pot": 5.4,
+    "hemo": 12.0,
+    "pcv": 36.0,
+    "wbcc": 7640.0,
+    "rbcc": 4.5
+  },
+  "ranges": {
+    "age": [
+      0,
+      100
+    ],
+    "bp": [
+      40,
+      220
+    ],
+    "sg": [
+      1.005,
+      1.03
+    ],
+    "al": [
+      0,
+      5
+    ],
+    "su": [
+      0,
+      5
+    ],
+    "bgr": [
+      40,
+      500
+    ],
+    "bu": [
+      0,
+      300
+    ],
+    "sc": [
+      0,
+      20
+    ],
+    "sod": [
+      100,
+      180
+    ],
+    "pot": [
+      2,
+      10
+    ],
+    "hemo": [
+      3,
+      20
+    ],
+    "pcv": [
+      10,
+      60
+    ],
+    "wbcc": [
+      1000,
+      30000
+    ],
+    "rbcc": [
+      1,
+      10
+    ]
+  },
+  "cat_map": {
+    "rbc": {
+      "normal": 0,
+      "abnormal": 1
+    },
+    "pc": {
+      "normal": 0,
+      "abnormal": 1
+    },
+    "pcc": {
+      "notpresent": 0,
+      "present": 1
+    },
+    "ba": {
+      "notpresent": 0,
+      "present": 1
+    },
+    "appet": {
+      "good": 0,
+      "poor": 1
+    },
+    "pe": {
+      "no": 0,
+      "yes": 1
+    },
+    "ane": {
+      "no": 0,
+      "yes": 1
+    },
+    "htn": {
+      "no": 0,
+      "yes": 1
+    },
+    "dm": {
+      "no": 0,
+      "yes": 1
+    },
+    "cad": {
+      "no": 0,
+      "yes": 1
+    }
+  },
+  "hospital_config": {
+    "Hospital 1": {
+      "missing": 0.05
+    },
+    "Hospital 2": {
+      "missing": 0.15
+    },
+    "Hospital 3": {
+      "missing": 0.25
+    },
+    "Hospital 4": {
+      "missing": 0.4
+    }
+  }
+}
